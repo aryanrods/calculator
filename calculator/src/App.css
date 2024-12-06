@@ -1,0 +1,83 @@
+
+body{
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin : 0;
+  background: url('https://external-preview.redd.it/7BQ9Ig391FbwCzMSgnCCgrzbEpnWXufcUSKwe6g7GXI.jpg?auto=webp&s=7729ce0fa75865ea3e0a40076360938065072bfe') no-repeat center/cover;
+
+}
+
+
+.calculator-container {
+  display:flex;
+  width: 300px;
+  height: 600px;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(200, 200, 200, 0.5);
+  border-radius: 15px;
+  backdrop-filter: blur(10px); 
+  box-shadow: 0 4px 6px rgb(0, 0, 0); 
+  transition: all 0.3s ease;
+  
+}
+
+input {
+  width: 100%;
+  height: 80px;
+  
+  font-size: 16px;
+  border: 1px solid rgba(200, 200, 200, 0.7);
+  border-radius: 10px;
+  background:rgba(255, 255, 255, 0.2);
+  color: #333;
+  backdrop-filter: blur(5px); /* Matches frosted glass style */
+      outline: none;
+      transition: border-color 0.3s ease, background 0.3s ease;
+      margin-top: 50px;
+    font-size: 25px;
+    padding: 10px;
+  
+
+}
+ 
+
+input:focus {
+  
+  border-color: rgba(100, 100, 255, 0.8);
+      background: rgba(255, 255, 255, 0.4);
+ }
+
+ button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent button */
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin: 5px;
+ }
+
+ button:hover {
+ background: rgba(0, 0, 0, 0.8);
+ }
+
+ .calculator-buttons {
+margin-top: 100px;
+}
+
+.calculator-display {
+  align-items: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
