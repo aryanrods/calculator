@@ -5,12 +5,15 @@ A simple calculator application built using **React** with a modern **glassmorph
 
 ## Features
 
-- **Elegant UI:** Uses a glassmorphism effect for a sleek and modern appearance.
-- **Responsive Design:** Works seamlessly across devices (mobile, tablet, and desktop).
-- **Basic Arithmetic Operations:** Addition, subtraction, multiplication, and division.
-- **Keyboard Support:** You can interact with the calculator using your keyboard.
+- Elegant UI:** Uses a glassmorphism effect for a sleek and modern appearance.
+- Responsive Design:** Works seamlessly across devices (mobile, tablet, and desktop).
+- Basic Arithmetic Operations:** Addition, subtraction, multiplication, and division.
+- Keyboard Support:** You can interact with the calculator using your keyboard.
 
-## Preview
+## <img width="1440" alt="Screenshot 2024-12-06 at 7 41 21 PM" src="https://github.com/user-attachments/assets/d1ec11af-8d07-4625-8f77-9d1acf222207">
+review
+
+
 
 
 
@@ -20,8 +23,8 @@ Follow these steps to set up and run the project locally.
 
 ### Prerequisites
 
-- **Node.js** (v14 or above)
-- **npm** or **yarn**
+- Node.js (v14 or above)
+- npm or yarn
 
 ### Installation
 
@@ -56,23 +59,25 @@ Follow these steps to set up and run the project locally.
 ├── public/
 ├── src/
 │    // Main calculator logic
-│   ├── App.js           // Root component
-│   ├── index.js         // Entry point
-│   └── styles/          // Styling files
+│   ├── App.js          
+│   ├── index.css       
+│   └── App.css
+    └── main.jsx
+        
 ├── package.json
 └── README.md
 ```
 
 ## Technologies Used
 
-- **React**: Frontend framework
-- **CSS**: For glassmorphism styling
+- React: Frontend framework
+- CSS: For glassmorphism styling
 
 ## Design Highlights
 
-- **Glassmorphism Effect**: Achieved using CSS properties like `backdrop-filter` and `rgba` colors.
-- **Grid Layout**: Used CSS Grid to ensure buttons align perfectly.
-- **Custom Styling**: Buttons have hover and active states for better user interaction.
+- Glassmorphism Effect: Achieved using CSS properties like `backdrop-filter` and `rgba` colors.
+- Grid Layout: Used CSS Grid to ensure buttons align perfectly.
+- Custom Styling: Buttons have hover and active states for better user interaction.
 
 ## Example Code Snippet
 
