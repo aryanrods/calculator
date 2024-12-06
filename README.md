@@ -126,6 +126,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 If you have any questions or suggestions, feel free to reach out!
 
-- GitHub: [your-username](https://github.com/your-username)
-- Email: [your-email@example.com](mailto\:your-email@example.com)
+- GitHub: [aryanrods](https://github.com/aryanrods)
+- Email: [aryanrodrigues45@gmail.com](aryanrodrigues45@gmail.com)
 
