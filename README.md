@@ -6,7 +6,6 @@ A simple calculator application built using **React** with a modern **glassmorph
 ## Features
 
 - Elegant UI:Uses a glassmorphism effect for a sleek and modern appearance.
-- Responsive Design: Works seamlessly across devices (mobile, tablet, and desktop).
 - Basic Arithmetic Operations: Addition, subtraction, multiplication, and division.
 - Keyboard Support: You can interact with the calculator using your keyboard.
 
